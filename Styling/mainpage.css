@@ -1,0 +1,63 @@
+html {
+    min-width: 550px;
+    position: relative;
+    }
+
+body {
+    background-color: beige;
+    overflow-y: auto; /* Enable vertical scrolling ?*/
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.container {
+    max-width: 100%; /* Ensure the container spans the entire width */
+    overflow-x: scroll; /* Enable horizontal scrolling within the container */
+    white-space: normal; /* Allow text to wrap inside the container */
+}
+
+.header-div {
+    max-width: 600px;
+    margin: auto; /* Center the header content horizontally */
+}
+
+.all-books-div {
+    /*display: flex; /* Display the book items in a row */
+    display: flex;
+    width: auto;
+    height: auto;
+    /*white-space: nowrap; /* Prevent text wrapping within the row */
+}
+
+.book-info-div {
+    background-color: bisque;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    white-space: normal; /* Allow text to wrap within the book info div */
+}
+
+.image-wrapper {
+    width: auto;
+    max-height: 400px;
+    margin: 10px;
+    display: inline-block; /* Display the image and details side by side */
+    vertical-align: top; /* Align the top of image and details */
+}
+
+.details-wrapper {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    display: inline-block; /* Display the details next to the image */
+    vertical-align: top; /* Align the top of image and details */
+}
+
+.space-div {
+    margin: 25px;
+}
+
+.text-align-left {
+    text-align: left;
+    width: auto;
+    height: auto;
+}
